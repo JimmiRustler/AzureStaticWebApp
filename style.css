@@ -178,10 +178,10 @@ main .hex {
 
 .image-container-profile
 {
-    float: right;
-    position: relative;
-    right: 40%;
+    position: absolute;
     padding-top: 100px;
+    top: 5px;
+    Left: 800px;
 }
 
 #hex-holder {
