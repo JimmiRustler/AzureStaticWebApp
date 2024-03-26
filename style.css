@@ -176,6 +176,14 @@ main .hex {
     transform: rotate(30deg);
 }
 
+.image-container-profile
+{
+    float: right;
+    position: relative;
+    right: 40%;
+    padding-top: 100px;
+}
+
 #hex-holder {
     position: fixed;
     height: 100vh;

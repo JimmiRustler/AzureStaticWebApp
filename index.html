@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src ="./wmbjcode.js":></script>
@@ -9,11 +8,13 @@
 </head>
     <body onload="draw()">
         <canvas id="bg"></canvas>
+        <div class="image-container-profile" >
+            <img src="./profilepic.jpg" alt="Profile Picture" width="300" height="400">
+        </div>
         <main id="content">
             <h1>
                 <div class="hex moved"></div><span>About Me</span></h1>
             <div class="subtext" id="main">
-               
                 <p>Hello and welcome to my Cloud Resume! My names Jesse Weber and ever since the age of 14 I've been enthused if not obsessed with technology. The moment I put my first PC together I knew I was going to pursue a career in technology.</p>
                 <p>Now, I have worked across a variety of IT fields ranging from Helpdesk, Network Admin, Server Admin and Software Development and gained valuable skills along the way. My next endevour to upgrade my IT career is to break into the Cyber Security and Cloud computing spaces. This page represents my progress learning the Azure Cloud!</p>
             </div>
@@ -26,7 +27,6 @@
         <p>Managed Ticketing systems providing timely and effective IT support to all manner of staff from Teachers to top Admin</p>
         <p>Able to create and upkeep documentation such as SOPs, SLAs and guides for various systems and servuces ensuring teams can find the info they need</p>
         <p>Assisted with large scale IT projects such as network upgrades and Active Directory rollouts</p>
-    
             </div>
             <h2>
                 <div class="hex"></div><span>Hobbies & Interests</span></h2>
@@ -49,9 +49,7 @@
         <p>10. Python: The Azure function to track when a user visits mt website, and update the database counter accordingly will be written in Python. IN PROGRESS</p>
         <p>11. Tests: Python code will support the use of Jest Test Cases. IN PROGRESS</p>
         <p>12. Infra as Code: The Website is hosted as an azure static app that is auto deployed upon any changes being made to the repo. The azure function has yet to be made. IN PROGRESS</p>
-    
             </div>
-            
             <h2>
                 <div class="hex"></div><span>Contact Me</span></h2>
             <div class="subtext coll">
@@ -68,6 +66,7 @@
             <div class="hex" id="dos"></div>
             <div class="hex" id="tres"></div>
         </div>
+        
     </body>
     
     </html>
