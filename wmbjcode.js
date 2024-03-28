@@ -2,9 +2,9 @@ function draw() {
     var canvas = $('canvas')[0];
     if(canvas.getContext) {
         var ctx = canvas.getContext('2d');
-        ctx.fillStyle = 'rgb(255, 255, 255, 0.5)';
+        ctx.fillStyle = 'rgb(0, 0, 0)';
         ctx.fillRect(10, 10, 50, 50);
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+        ctx.fillStyle = 'rgba(0, 0, 225, 0.5)';
         ctx.fillRect(30, 30, 50, 50);
     }
 }
