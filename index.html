@@ -47,11 +47,11 @@
                 <p>5. HTTPS: Azure Static Web Apps serve content using HTTPS by default allowing for secure transmission. DONE</p>
                 <p>6. DNS: This website is hosted using Azure DNS configured to take requests from my domain wmbj.ca hosted on Web Hosting Canada This allows my custom URL to function correctly, www.wmbj.ca. DONE</p>
                 <p>7. Javascript: I will later on attempt to create a tracker that displays the total number of users who have visited this site. The HTML page will use Java to pull that number from a back end Database. IN PROGRESS
-                <p>8. Database: The databae will come into play once I start attemtping to code the site visitor tracker. The counter will be stored in a Cosmo DB Tables instance and called with an API. IN PROGRESS</p>
-                <p>9. API: All calls to the database will be done via API. IN PROGRESS</p>
-                <p>10. Python: The Azure function to track when a user visits mt website, and update the database counter accordingly will be written in Python. IN PROGRESS</p>
+                <p>8. Database: I have successfully created an Azure Function to update a database with an IP adress to record a logbook of who visits the website. However, this exposes an API via the front end. I will have to now split the website into a frontend and backend to securely do this. IN PROGRESS</p>
+                <p>9. API: The Datbase is done via API calls, but from the front end currently. For security reasons I won't be exposing that yet. IN PROGRESS</p>
+                <p>10. Python: An azure function is now written that commits the IP address of the connection to a database.  DONE</p>
                 <p>11. Tests: Python code will support the use of Jest Test Cases. IN PROGRESS</p>
-                <p>12. Infra as Code: The Website is hosted as an azure static app that is auto deployed upon any changes being made to the repo. The azure function has yet to be made. IN PROGRESS</p>
+                <p>12. Infra as Code: All deployments are done via the repo changes for the website, or one click deploys from VS Code for the Azure Function. DONE</p>
             </div>
             <h2>
                 <div class="hex"></div><span>Contact Me</span></h2>
