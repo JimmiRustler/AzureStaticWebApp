@@ -156,7 +156,7 @@ main .hex {
     position: absolute;
     margin-top: -1px;
     margin-left: 0px;
-    /*     color:#ccc; */
+    color: #f00; /* changed */
 }
 
 .hex:before {
